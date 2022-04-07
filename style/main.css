@@ -1,0 +1,115 @@
+/*configurações prévias*/
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Roboto+Slab:wght@300&family=Rubik&display=swap');
+
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*configurações básicas da página*/
+body {
+    background: var(--preta);
+    font-family: 'Heebo', sans-serif;
+    color: white;
+}
+
+main {
+    margin-bottom: 3px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: "Arial Black", Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.573);
+    margin-right: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+.redesSociais {
+    display: inline;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*configurações do repositório principal*/
+.repositorio-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .30) 100%), url("/img/Github.png");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.repositorio-principal .descricao {
+    margin: 20px 410px 25px 0px;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .30);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .27s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.repositorio-principal .container {
+    width: 70%;
+}
+
+.box-repositorio {
+    height: 50%;
+    width: 50%;
+    display: block;
+}
+/*Configuração do carrossel de repositórios*/
+.titulo-secundario {
+    margin: 8px 0px 1px 18px;
+    font-weight:lighter ;
+}

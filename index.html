@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <title>Repositop</title>
+</head>
+
+<body>
+<!-- Aqui faço o cabeçalho da página, linkando com seus respectivos temas-->
+    <header>
+        <div class="container">
+            <h2 class="logo"> REPOSITOP </h2>
+            <nav>
+                <a href="#principal">Inicio</a>
+                <a href="#js">JavaScript</a>
+                <a href="#py">Python</a>
+                <a href="#diversos">Diversos</a>
+                <a href="#vagas">Vagas</a>
+            </nav>
+        </div>
+    </header>
+<!-- Tema principal da minha página, usando ícones pelo Font Awesome e um pouco de JavaScript -->
+    <main>
+        <div class="repositorio-principal" id="principal">
+            <div class="container">
+                <h3 class="titulo"> Os melhores repositórios</h3>
+                <p class="descricao"> Aqui está os melhores repositórios do momento, aproveite cada um rolando para o
+                    mais interessante que você achar! Não deixe de checar minhas redes sociais:</p>
+                <div class="botoes">
+                    <button role="button" class="botao" id="button" onclick="botaoGithub()">
+                        <i class="fa-brands fa-github"></i>
+                        <p class="redesSociais">GITHUB</p>
+                    </button>
+                    <button role="button" class="botao" onclick="botaoLinkedin()">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <p class="redesSociais">LINKEDIN</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- Imagens dentro do carrosselque redirecionam para outros repositórios-->
+    <section>
+        <h3 id="js" class="titulo-secundario"> JAVASCRIPT </h3>
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl theme">
+                <div class="item">
+                    <a href="https://github.com/sorrycc/awesome-javascript" target="_blank"> <img
+                            class="box-repositorio" src="img/Awesome_javascript.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/liammclennan/JavaScript-Koans" target="_blank"><img
+                            class="box-repositorio" src="img/JavaScript_Koans.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/airbnb/javascript" target="_blank"><img class="box-repositorio"
+                            src="img/JavaScript_Style_Guide.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/trekhleb/javascript-algorithms" target="_blank"><img
+                            class="box-repositorio" src="img/JavaScript_algorithms.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/lydiahallie/javascript-questions" target="_blank"><img
+                            class="box-repositorio" src="img/JavaScript_Questions.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <h3 id="py" class="titulo-secundario"> PYTHON </h3>
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl theme">
+                <div class="item">
+                    <a href="https://github.com/TheAlgorithms/Python" target="_blank"><img class="box-repositorio"
+                            src="img/The_Algorithms.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/vinta/awesome-python" target="_blank"><img class="box-repositorio"
+                            src="img/Awesome_Python.png"> </a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/zhiwehu/Python-programming-exercises" target="_blank"><img
+                            class="box-repositorio" src="img/Python_Exercises.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/trekhleb/learn-python" target="_blank"><img class="box-repositorio"
+                            src="img/Learn_Python.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/MTrajK/coding-problems" target="_blank"><img class="box-repositorio"
+                            src="img/Coding_Problems.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <h3 id="diversos" class="titulo-secundario"> DIVERSOS </h3>
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl theme">
+                <div class="item">
+                    <a href="https://github.com/florinpop17/app-ideas" target="_blank"><img class="box-repositorio"
+                            src="img/App_Ideas.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank"><img
+                            class="box-repositorio" src="img/Free_Programming_Books.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/public-apis/public-apis" target="_blank"> <img class="box-repositorio"
+                            src="img/public_apis.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank"><img
+                            class="box-repositorio" src="img/Free_Programming_Books.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/practical-tutorials/project-based-learning" target="_blank"><img
+                            class="box-repositorio" src="img/Project_Based_Learning.png" ></a>
+                </div>
+            </div>
+        </div>
+
+        <h3 id="vagas" class="titulo-secundario"> VAGAS </h3>
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl theme">
+                <div class="item">
+                    <a href="https://github.com/alinebastos/vagas-junior-estagio" target="_blank"><img
+                            class="box-repositorio" src="img/Vagas_Junior_Estagio.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/vuejs-br/vagas" target="_blank"><img class="box-repositorio"
+                            src="img/Vuejs_BR.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/frontendbr/vagas/issues" target="_blank"><img class="box-repositorio"
+                            src="img/Frontend_BR.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/backend-br/vagas/issues" target="_blank"><img class="box-repositorio"
+                            src="img/Backend_BR.png"></a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/frontendbr/me-contrata/issues" target="_blank"><img
+                            class="box-repositorio" src="img/Front_End_Me_Contrata.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Links para arquivos Javascript, para diversificar a página, como o carrossel-->
+    <script src="https://kit.fontawesome.com/043b8560d9.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+    <script src="js/buttons.js"></script>
+</body>
+
+</html>

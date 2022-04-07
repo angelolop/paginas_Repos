@@ -1,0 +1,12 @@
+/*configurações para deixar página mais responsiva*/
+@media screen and (max-width: 700px) {
+    header .container{
+        display:flex;
+        flex-direction:column;
+    }
+    
+    .botao{
+        margin-top: 5px;
+        width: 200px;
+    }
+;}
