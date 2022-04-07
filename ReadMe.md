@@ -8,4 +8,4 @@ Os melhores repositórios para aprender Python.
 ### Diversos
 Os melhores repositórios para atividades de programação diversas, roadmaps e utilidades.
 ### Vagas
-Os melhores repositórios para encontrar vagas no Brasil, para front-end, back-end, juniors, plenos, sênior e linguagens de programação.
+Os melhores repositórios para encontrar vagas no Brasil, para front-end, back-end, juniors, plenos, sêniors e linguagens de programação.
